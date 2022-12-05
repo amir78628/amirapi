@@ -7,6 +7,7 @@ import img5 from '../../assets/Group 28.png'
 import img6 from '../../assets/Group 29.png'
 import img7 from '../../assets/Group 36.png'
 import img9 from '../../assets/Group 40.png'
+import img10 from '../../assets/visibility.png'
 import img8 from '../../assets/rocket_launch.png'
 
 
@@ -161,7 +162,7 @@ const Home = () => {
 
             <div className='row ps-5'>
                 <div className='col-6'>
-                <a href="#" class="btne btn-brands">PreneurBay’s Terminal</a>
+                <a href="#" class="btne btn-brands text-center pr-3" style={{ color: '#D1AB49' }}>PreneurBay’s Terminal</a>
                 <h1 className='cont mt-5'>Connecting Cities <br/> Internationally</h1>
                 </div>
                 <div className='col-lg-6 pt-5 mt-5'>
@@ -208,7 +209,7 @@ const Home = () => {
            <div className='row mist mt-5 ols1 '>
                 <div className='col-lg-4'>
                 <div className='pu1'>
-                   <img  className='m-5 kp1' src={img8}/>
+                   <img  className='m-5 kp1' src={img10}/>
                 </div>
                 </div>
                 <div className='col-lg-8 p-5 mt-5'>
